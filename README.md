@@ -26,7 +26,7 @@ $ npm install -g mail-test-cli
 
 <h1 align="center">
 	<br>
-	<img width="350" src="./media/usage.gif">
+	<img width="600" src="./media/usage.gif">
 	<br>
 </h1>
 ```
