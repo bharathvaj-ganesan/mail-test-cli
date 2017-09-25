@@ -29,6 +29,7 @@ $ npm install -g mail-test-cli
 	<img width="600" src="./media/usage.gif">
 	<br>
 </h1>
+
 ```
     $ mail-test --help
     Usage
