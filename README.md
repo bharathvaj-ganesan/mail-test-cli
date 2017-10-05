@@ -13,7 +13,7 @@ Cli tool to validate email making use of powerful [Mail Test](http://mailtest.in
 ## Installation
 
 ```
-$ npm install -g mail-test
+$ npm install -g mail-test-cli
 ```
 
 ## Features
@@ -25,8 +25,12 @@ $ npm install -g mail-test
 ## Usage
 
 ```
-    $ mail-test bharathvaj@zoho.com
-    This domain is active and is set up to receive emails normally.
+    $ mail-test --help
+    Usage
+	  $ mail-test <email address>
+	Example
+	  $ mail-test bharathvaj@zoho.com
+	  This domain is active and is set up to receive emails normally.
 ```
 
 ## License
