@@ -1,10 +1,17 @@
 {
-	"name": "stand-by",
+	"name": "mail-test",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "cli.js",
+	"bin": {
+		"search-cdnjs": "cli.js"
+	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"run": "node cli.js",
+		"commit": "git-cz"
+	},
+	"engines": {
+		"node": ">=6"
 	},
 	"repository": {
 		"type": "git",
@@ -30,15 +37,24 @@
 	},
 	"nyc": {
 		"check-coverage": true,
-		"reporter": ["text", "lcov"]
+		"reporter": [
+			"text",
+			"lcov"
+		]
 	},
 	"config": {
 		"commitizen": {
 			"path": "cz-conventional-changelog"
 		},
 		"ghooks": {
-			"pre-commit": "npm run validate",
 			"commit-msg": "validate-commit-msg"
 		}
+	},
+	"dependencies": {
+		"Console": "1.1.0",
+		"cachios": "1.0.7",
+		"effortless-require": "1.0.2",
+		"meow": "4.0.0",
+		"ora": "1.3.0"
 	}
 }
