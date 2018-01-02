@@ -1,6 +1,6 @@
 {
 	"name": "mail-test-cli",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Cli tool to validate email making use of mailtest.in",
 	"main": "cli.js",
 	"bin": {
