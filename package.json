@@ -1,7 +1,7 @@
 {
 	"name": "mail-test",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Cli tool to validate email making use of mailtest.in",
 	"main": "cli.js",
 	"bin": {
 		"search-cdnjs": "cli.js"
@@ -37,10 +37,7 @@
 	},
 	"nyc": {
 		"check-coverage": true,
-		"reporter": [
-			"text",
-			"lcov"
-		]
+		"reporter": ["text", "lcov"]
 	},
 	"config": {
 		"commitizen": {
@@ -56,5 +53,6 @@
 		"effortless-require": "1.0.2",
 		"meow": "4.0.0",
 		"ora": "1.3.0"
-	}
+	},
+	"keywords": ["cli", "tool", "email", "mail-test", "validate", "mailtest"]
 }
