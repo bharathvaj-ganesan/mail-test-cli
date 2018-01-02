@@ -4,7 +4,7 @@
 	"description": "Cli tool to validate email making use of mailtest.in",
 	"main": "cli.js",
 	"bin": {
-		"search-cdnjs": "cli.js"
+		"mail-test": "cli.js"
 	},
 	"scripts": {
 		"run": "node cli.js",
