@@ -1,5 +1,5 @@
 {
-	"name": "mail-test",
+	"name": "mail-test-cli",
 	"version": "1.0.0",
 	"description": "Cli tool to validate email making use of mailtest.in",
 	"main": "cli.js",
@@ -15,9 +15,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bharathvaj1995/stand-by.git"
+		"url": "https://github.com/bharathvaj1995/mail-test-cli.git"
 	},
-	"author": "Bharath <bharathvaj1995@gmail.com> (http://www.bharathvaj.me/)",
+	"author": "Bharath <bharathvaj1995@gmail.com> (https://bharathvajganesan.me/)",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/bharathvaj1995/stand-by/issues"
