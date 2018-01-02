@@ -1,19 +1,44 @@
 {
-  "name": "stand-by",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bharathvaj1995/stand-by.git"
-  },
-  "author": "Bharath <bharathvaj1995@gmail.com> (http://www.bharathvaj.me/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bharathvaj1995/stand-by/issues"
-  },
-  "homepage": "https://github.com/bharathvaj1995/stand-by#readme"
+	"name": "stand-by",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bharathvaj1995/stand-by.git"
+	},
+	"author": "Bharath <bharathvaj1995@gmail.com> (http://www.bharathvaj.me/)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/bharathvaj1995/stand-by/issues"
+	},
+	"homepage": "https://github.com/bharathvaj1995/stand-by#readme",
+	"devDependencies": {
+		"chai": "4.1.2",
+		"codecov": "3.0.0",
+		"commitizen": "2.9.6",
+		"cz-conventional-changelog": "2.1.0",
+		"ghooks": "2.0.2",
+		"mocha": "4.1.0",
+		"npm-run-all": "4.1.2",
+		"nyc": "11.4.1",
+		"semantic-release": "11.0.2",
+		"validate-commit-msg": "2.14.0"
+	},
+	"nyc": {
+		"check-coverage": true,
+		"reporter": ["text", "lcov"]
+	},
+	"config": {
+		"commitizen": {
+			"path": "cz-conventional-changelog"
+		},
+		"ghooks": {
+			"pre-commit": "npm run validate",
+			"commit-msg": "validate-commit-msg"
+		}
+	}
 }
